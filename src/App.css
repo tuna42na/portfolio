@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .App-logo {
@@ -14,7 +16,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(https://i.etsystatic.com/13460861/r/il/c428d0/2429904793/il_1588xN.2429904793_pkk1.jpg);
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +39,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+.outbound-links-container{
+  border-radius: 10px;
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(255, 253, 253, 0.4);
+  transition: background-color 1s;
+  padding: 80px 30px;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+.outbound-links-container > div{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outbound-links-container > div > a > img {
+height:60px;
+width:auto;
+position: relative;
+top: 25%;
+}
+
+div  .outbound-links-container :hover{
+  border-radius: 10px;
+  background-color: rgba(255, 253, 253, 0.7);
+}
+
+
