@@ -4,6 +4,7 @@ import code from '../images/code.svg';
 import code_pen from '../images/code_pen.svg';
 import resume from '../images/resume.svg';
 import { Container, Row } from 'reactstrap';
+import tunalogo from '../images/tunalogo.svg';
 
 
 export class Links extends React.Component{
@@ -17,22 +18,23 @@ export class Links extends React.Component{
 
         const items = jobs.map((job, i) =>
             
-                <div key={i}>
-                  <a href={job.href}>
+                <div id={job.title} key={i}>
+                    <a href={job.href}>
                     <img 
+                        className="iconSvg"
                         src={`${job.image}`} 
                         alt={`${job.title}`} 
-                    />
-                    </a> 
+                    ></img></a>
                 </div>
             
         );
 
     return(
         <Container>
-        <div className="outbound-links-container">
-           {items}
-        </div>
+            <div className="outbound-links-container">
+            {items}
+            <img id="tunalogo" src={tunalogo}/>
+            </div>
         </Container>
     );
     }

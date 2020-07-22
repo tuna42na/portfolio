@@ -27,50 +27,126 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
 .outbound-links-container{
-  border-radius: 10px;
-  width: 100%;
-  height: fit-content;
-  background-color: rgba(255, 253, 253, 0.4);
-  transition: background-color 1s;
-  padding: 80px 30px;
+  width: 60%;
+  padding: 30px 30px;
   text-align: center;
   margin: auto;
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 10px;
+  grid-gap: 50px;
+  z-index: 2;
 }
+
 .outbound-links-container > div{
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  width: 100%;
+  margin: auto;
+  padding-bottom: 50%;
+  position: relative;
+  border-radius: 20px;
+  transition: background-color 1s;
 }
 
-.outbound-links-container > div > a > img {
-height:60px;
-width:auto;
-position: relative;
-top: 25%;
+.outbound-links-container > div:hover{
+  background-color: rgb(255,255,255, 0.5);
 }
 
-div  .outbound-links-container :hover{
+.outbound-links-container > div > a >  img {
+  height:40px;
+  width:auto;
+  position: relative;
+  top: 25%;
+}
+
+div .outbound-links-container {
+  
+  background-color: rgba(255, 253, 253, 0.2);
   border-radius: 10px;
-  background-color: rgba(255, 253, 253, 0.7);
 }
 
+#tunalogo {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  background:black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 100px; 
+  text-align: center;
+}
 
+#Code:hover ~ img#tunalogo{
+  animation: code 2s 1;
+}
+@keyframes code{
+ 0%{border-top-left-radius:50%}
+ 75%{border-top-left-radius:15%}
+ 100%{border-top-left-radius:50%}
+}
+
+#Music:hover ~ img#tunalogo{
+  animation: music 2s 1;
+}
+@keyframes music{
+ 0%{border-top-right-radius:50%}
+ 75%{border-top-right-radius:15%}
+ 100%{border-top-right-radius:50%}
+}
+
+#Codepen:hover ~ img#tunalogo{
+  animation: codepen 2s 1;
+}
+@keyframes codepen{
+  0%{border-bottom-left-radius:50%}
+  75%{border-bottom-left-radius:15%}
+  100%{border-bottom-left-radius:50%}
+ }
+
+#Resume ~ img#tunalogo{
+  transition: border-bottom-right-radius 2s;
+}
+#Resume:hover ~ img#tunalogo{
+  border-bottom-right-radius: 15%;
+}
+
+#tunaheaderlogo{
+  animation: intro 5s 1;
+  position: fixed;
+  z-index: 42;
+  top: 10%;
+  left: 7%;
+  width: 20%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: rgba(255, 253, 253, 0.2);
+  transition: background-color 1s;
+}
+
+#tunaheaderlogo:hover{
+  background-color:rgb(255,255,255, 0.5);
+}
+
+@keyframes intro {
+  0%{
+    top:0%;
+    left:50%;
+  }
+  50%{
+    top:40%;
+    left:50%
+  }
+  55%{
+    top:40%;
+    left:50%
+  }
+  100%{
+    top: 10%;
+    left: 7%;
+  }
+}
