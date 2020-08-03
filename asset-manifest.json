@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.99f30ac5.chunk.css",
-    "main.js": "/static/js/main.328d1b18.chunk.js",
-    "main.js.map": "/static/js/main.328d1b18.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.668f82ee.chunk.js": "/static/js/2.668f82ee.chunk.js",
-    "static/js/2.668f82ee.chunk.js.map": "/static/js/2.668f82ee.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.03c8c9c0d50763487838ca9d3c8a90de.js": "/precache-manifest.03c8c9c0d50763487838ca9d3c8a90de.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.99f30ac5.chunk.css.map": "/static/css/main.99f30ac5.chunk.css.map",
-    "static/js/2.668f82ee.chunk.js.LICENSE.txt": "/static/js/2.668f82ee.chunk.js.LICENSE.txt",
-    "static/media/bass.svg": "/static/media/bass.0d6fda91.svg",
-    "static/media/code.svg": "/static/media/code.e9a0db64.svg",
-    "static/media/code_pen.svg": "/static/media/code_pen.7aa280dd.svg",
-    "static/media/resume.svg": "/static/media/resume.370ca041.svg",
-    "static/media/tunalogo.svg": "/static/media/tunalogo.19a56cc3.svg"
+    "main.css": "/portfolio/static/css/main.99f30ac5.chunk.css",
+    "main.js": "/portfolio/static/js/main.6e777230.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6e777230.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.668f82ee.chunk.js": "/portfolio/static/js/2.668f82ee.chunk.js",
+    "static/js/2.668f82ee.chunk.js.map": "/portfolio/static/js/2.668f82ee.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.07ac7f46773949f921d2680b4656baf3.js": "/portfolio/precache-manifest.07ac7f46773949f921d2680b4656baf3.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.99f30ac5.chunk.css.map": "/portfolio/static/css/main.99f30ac5.chunk.css.map",
+    "static/js/2.668f82ee.chunk.js.LICENSE.txt": "/portfolio/static/js/2.668f82ee.chunk.js.LICENSE.txt",
+    "static/media/bass.svg": "/portfolio/static/media/bass.0d6fda91.svg",
+    "static/media/code.svg": "/portfolio/static/media/code.e9a0db64.svg",
+    "static/media/code_pen.svg": "/portfolio/static/media/code_pen.7aa280dd.svg",
+    "static/media/resume.svg": "/portfolio/static/media/resume.370ca041.svg",
+    "static/media/tunalogo.svg": "/portfolio/static/media/tunalogo.19a56cc3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ceaf4b5f.js",
+    "static/js/runtime-main.075c0788.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.668f82ee.chunk.js",
     "static/css/main.99f30ac5.chunk.css",
-    "static/js/main.328d1b18.chunk.js"
+    "static/js/main.6e777230.chunk.js"
   ]
 }
