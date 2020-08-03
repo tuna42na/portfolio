@@ -12,9 +12,9 @@ export class Links extends React.Component{
     render(){
         const jobs = [];
         jobs.push({image: code ,title:'Code', href:"https://github.com/tuna42na"});
-        jobs.push({image: bass ,title:'Music', href : ""});
+        jobs.push({image: bass ,title:'Music', href : "https://www.familyandfriendsband.com/"});
         jobs.push({image: code_pen ,title:'Codepen', href : "https://codepen.io/tuna42na/"});
-        jobs.push({image: resume ,title:'Resume', href : "../images/tuna-resume.pdf"});
+        jobs.push({image: resume ,title:'Resume', href : "https://www.linkedin.com/in/tuna-fortuna/"});
 
         const items = jobs.map((job, i) =>
             
@@ -24,7 +24,8 @@ export class Links extends React.Component{
                         className="iconSvg"
                         src={`${job.image}`} 
                         alt={`${job.title}`} 
-                    ></img></a>
+                    ></img>
+                    </a>
                 </div>
             
         );

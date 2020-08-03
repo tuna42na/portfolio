@@ -27,6 +27,9 @@
   color: white;
 }
 
+.container{
+
+}
 
 
 .outbound-links-container{
@@ -38,6 +41,7 @@
   grid-template-columns: auto auto;
   grid-gap: 50px;
   z-index: 2;
+  animation: fadein 5s 1;
 }
 
 .outbound-links-container > div{
@@ -124,18 +128,20 @@ div .outbound-links-container {
   width: 20%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  background-color: rgba(255, 253, 253, 0.2);
+  background-color: rgba(255, 253, 253, 0.5);
   transition: background-color 1s;
+  opacity: 0%;
 }
 
 #tunaheaderlogo:hover{
-  background-color:rgb(255,255,255, 0.5);
+  background-color:rgb(255,255,255, 0.7);
 }
 
 @keyframes intro {
   0%{
     top:0%;
     left:50%;
+    opacity:100%;
   }
   50%{
     top:40%;
@@ -143,10 +149,29 @@ div .outbound-links-container {
   }
   55%{
     top:40%;
-    left:50%
+    left:50%;
+    opacity:100%;
   }
   100%{
     top: 10%;
     left: 7%;
+    opacity:0%;
+  }
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 0%;
+    grid-gap: 250px;
+  }
+  55%{
+    visibility: 20%;
+    grid-gap: 150px;
+  }
+  100%{
+    opacity: 100% ;
   }
 }
